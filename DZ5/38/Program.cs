@@ -7,7 +7,7 @@
 
 }
 
-float OddSum(float[] array)
+float Difference(float[] array)
 {
     float max = array[0];
     float min = array[0];
@@ -36,4 +36,4 @@ float[] array = new float[size];
 ArrayFilling(array);
 Console.Write(string.Join(", ", array));
 Console.WriteLine();
-Console.Write("Разница между максимальным и минимальным элементами " + OddSum(array));
+Console.Write("Разница между максимальным и минимальным элементами " + Difference(array));
