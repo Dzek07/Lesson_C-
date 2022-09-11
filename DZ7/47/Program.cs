@@ -11,7 +11,7 @@ void FuelArray(int m, int n, double[,] array)
 	for(int i = 0; i<m; i++){
 		for(int j = 0; j<n; j++){
 			array[i,j] =new Random().Next(-10,10);
-            tmp = new Random().Next(0,9);
+            tmp = new Random().Next(0,10);
             tmp = tmp / 10;
             array[i,j] = array[i,j] + tmp;
         }
