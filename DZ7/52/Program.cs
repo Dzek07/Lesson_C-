@@ -23,7 +23,7 @@ void FuelArray(int m, int n, int[,] array)
 		Console.WriteLine();
 	}
 }
-void ElementSearch(int m, int n, int[,] array)
+void Average(int m, int n, int[,] array)
 {
     for(int j = 0; j<m; j++)
     {
@@ -41,5 +41,5 @@ int n = Read("Введите № строки ");
 
 int [,] array = new int[m, n];
 FuelArray(m, n, array);
-ElementSearch(m, n, array);
+Average(m, n, array);
 
